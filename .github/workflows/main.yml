@@ -8,6 +8,6 @@ jobs:
         runs on: ubunto-latest
         steps:
         - uses: actions/checkout@v2
-        - name: Run python
-            run:
-              python3 test.py
+        - name: Run Python
+          run:
+              python3 test.py # test
